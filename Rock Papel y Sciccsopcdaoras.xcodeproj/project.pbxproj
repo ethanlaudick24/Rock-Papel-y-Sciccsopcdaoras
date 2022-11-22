@@ -14,6 +14,8 @@
 		1CFEE072292286590040E608 /* Rock_Papel_y_Sciccsopcdaoras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE070292286590040E608 /* Rock_Papel_y_Sciccsopcdaoras.xcdatamodeld */; };
 		1CFEE0742922865A0040E608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFEE0732922865A0040E608 /* Assets.xcassets */; };
 		1CFEE0772922865A0040E608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFEE0752922865A0040E608 /* LaunchScreen.storyboard */; };
+		1CFEE07F292289760040E608 /* firstPlayerOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE07E292289760040E608 /* firstPlayerOneViewController.swift */; };
+		1CFEE081292289FA0040E608 /* firstTwoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE080292289FA0040E608 /* firstTwoPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1CFEE0732922865A0040E608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CFEE0762922865A0040E608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CFEE0782922865A0040E608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFEE07E292289760040E608 /* firstPlayerOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPlayerOneViewController.swift; sourceTree = "<group>"; };
+		1CFEE080292289FA0040E608 /* firstTwoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTwoPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				1CFEE069292286590040E608 /* SceneDelegate.swift */,
 				1CFEE06B292286590040E608 /* ViewController.swift */,
 				1CFEE06D292286590040E608 /* Main.storyboard */,
+				1CFEE080292289FA0040E608 /* firstTwoPlayerViewController.swift */,
+				1CFEE07E292289760040E608 /* firstPlayerOneViewController.swift */,
 				1CFEE0732922865A0040E608 /* Assets.xcassets */,
 				1CFEE0752922865A0040E608 /* LaunchScreen.storyboard */,
 				1CFEE0782922865A0040E608 /* Info.plist */,
@@ -143,6 +149,8 @@
 			files = (
 				1CFEE072292286590040E608 /* Rock_Papel_y_Sciccsopcdaoras.xcdatamodeld in Sources */,
 				1CFEE06C292286590040E608 /* ViewController.swift in Sources */,
+				1CFEE07F292289760040E608 /* firstPlayerOneViewController.swift in Sources */,
+				1CFEE081292289FA0040E608 /* firstTwoPlayerViewController.swift in Sources */,
 				1CFEE068292286590040E608 /* AppDelegate.swift in Sources */,
 				1CFEE06A292286590040E608 /* SceneDelegate.swift in Sources */,
 			);
