@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA676C82940DE7800B7B735 /* statsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA676C72940DE7800B7B735 /* statsViewController.swift */; };
 		1CFEE068292286590040E608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE067292286590040E608 /* AppDelegate.swift */; };
 		1CFEE06A292286590040E608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE069292286590040E608 /* SceneDelegate.swift */; };
 		1CFEE06C292286590040E608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE06B292286590040E608 /* ViewController.swift */; };
@@ -14,11 +15,11 @@
 		1CFEE072292286590040E608 /* Rock_Papel_y_Sciccsopcdaoras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE070292286590040E608 /* Rock_Papel_y_Sciccsopcdaoras.xcdatamodeld */; };
 		1CFEE0742922865A0040E608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFEE0732922865A0040E608 /* Assets.xcassets */; };
 		1CFEE0772922865A0040E608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFEE0752922865A0040E608 /* LaunchScreen.storyboard */; };
-		1CFEE07F292289760040E608 /* firstPlayerOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE07E292289760040E608 /* firstPlayerOneViewController.swift */; };
 		1CFEE081292289FA0040E608 /* firstTwoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEE080292289FA0040E608 /* firstTwoPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CA676C72940DE7800B7B735 /* statsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statsViewController.swift; sourceTree = "<group>"; };
 		1CFEE064292286590040E608 /* Rock Papel y Sciccsopcdaoras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Papel y Sciccsopcdaoras.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFEE067292286590040E608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFEE069292286590040E608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		1CFEE0732922865A0040E608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CFEE0762922865A0040E608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CFEE0782922865A0040E608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CFEE07E292289760040E608 /* firstPlayerOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPlayerOneViewController.swift; sourceTree = "<group>"; };
 		1CFEE080292289FA0040E608 /* firstTwoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTwoPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,8 +66,8 @@
 				1CFEE069292286590040E608 /* SceneDelegate.swift */,
 				1CFEE06B292286590040E608 /* ViewController.swift */,
 				1CFEE06D292286590040E608 /* Main.storyboard */,
+				1CA676C72940DE7800B7B735 /* statsViewController.swift */,
 				1CFEE080292289FA0040E608 /* firstTwoPlayerViewController.swift */,
-				1CFEE07E292289760040E608 /* firstPlayerOneViewController.swift */,
 				1CFEE0732922865A0040E608 /* Assets.xcassets */,
 				1CFEE0752922865A0040E608 /* LaunchScreen.storyboard */,
 				1CFEE0782922865A0040E608 /* Info.plist */,
@@ -147,9 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA676C82940DE7800B7B735 /* statsViewController.swift in Sources */,
 				1CFEE072292286590040E608 /* Rock_Papel_y_Sciccsopcdaoras.xcdatamodeld in Sources */,
 				1CFEE06C292286590040E608 /* ViewController.swift in Sources */,
-				1CFEE07F292289760040E608 /* firstPlayerOneViewController.swift in Sources */,
 				1CFEE081292289FA0040E608 /* firstTwoPlayerViewController.swift in Sources */,
 				1CFEE068292286590040E608 /* AppDelegate.swift in Sources */,
 				1CFEE06A292286590040E608 /* SceneDelegate.swift in Sources */,

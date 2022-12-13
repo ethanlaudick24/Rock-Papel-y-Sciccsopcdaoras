@@ -107,6 +107,8 @@ class firstTwoPlayerViewController: UIViewController {
         ComputerRandomNum = Int.random(in: 1...3)
     }
     
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        //save stats here and reset wins/draw/lose record to all 0, record curr stats as a game on the stat page
+    }
     
 }

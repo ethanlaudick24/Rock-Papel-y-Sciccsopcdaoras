@@ -12,6 +12,13 @@ Switch Statement
 Classes
 Github
  
+ 
+ //to add
+ for loop
+ while loop
+ array
+ 
+ 
 */
 
 //-------------
@@ -22,7 +29,9 @@ View Controller
 Imageview
 Button
 Label
-
+Stackview
+Constraints
+Tableview
 */
 
 
@@ -43,6 +52,10 @@ class ViewController: UIViewController {
 
     @IBAction func onePlayerButton(_ sender: Any) {
         performSegue(withIdentifier: "onePlayerSegue", sender: nil)
+    }
+    
+    @IBAction func statsButton(_ sender: Any) {
+        performSegue(withIdentifier: "statsSegue", sender: nil)
     }
     
     /*
