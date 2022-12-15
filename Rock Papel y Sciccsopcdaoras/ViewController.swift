@@ -11,14 +11,11 @@ Operators
 Switch Statement
 Classes
 Github
- 
- 
- //to add
- for loop
- while loop
- array
- 
- 
+Safely unwrapping
+Array
+For Loop
+Is/Else
+Functions
 */
 
 //-------------
@@ -31,7 +28,7 @@ Button
 Label
 Stackview
 Constraints
-Tableview
+Text View
 */
 
 
@@ -39,17 +36,25 @@ class AppData{
     static var CPU_Wins = 0
     static var PlayerWin = 0
     static var CPUvsPlayerDraws = 0
+    
+    static var numberOfGamesPlayed = -1
+    static var wins = [Int]()
+    static var draws = [Int]()
+    static var loses = [Int]()
+    
 }
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var announcerLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
+    
     @IBAction func onePlayerButton(_ sender: Any) {
         performSegue(withIdentifier: "onePlayerSegue", sender: nil)
     }
